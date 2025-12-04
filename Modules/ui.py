@@ -13,7 +13,7 @@ def openui():
     window.setGeometry(100, 50, 300, 600)
 
     #title text
-    title = QLabel("Reminder", parent=window)
+    title = QLabel("Tasks", parent=window)
     title.move(60, 10)
 
     #title text font
@@ -45,13 +45,13 @@ def setuptasks(window):
     labels = []
     buttons = []
 
-    for i in range(11):
+    for i in range(12):
         label = QLabel(parent=window)
         button = QPushButton(parent=window)
     
         #moving
-        label.move(100, 60 + (i * 40))
-        button.move(40, 60 + (i * 40))
+        label.move(100, 70 + (i * 40))
+        button.move(40, 70 + (i * 40))
 
         # font
         font = label.font()
