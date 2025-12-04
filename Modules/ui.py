@@ -50,8 +50,8 @@ def setuptasks(window):
         button = QPushButton(parent=window)
     
         #moving
-        label.move(100, 70 + (i * 40))
-        button.move(40, 70 + (i * 40))
+        label.move(80, 70 + (i * 40))
+        button.move(25, 70 + (i * 40))
 
         # font
         font = label.font()
